@@ -8,15 +8,15 @@ import { filter, map } from 'rxjs/operators';
 let HEROS: HeroMockDto[] = [
   {
     'id': 1,
-    'name': 'Mr. MockBig',
+    'name': 'Iron Man',
   },
   {
     'id': 2,
-    'name': 'Mrs. MockTootoot',
+    'name': 'Luke Cage',
   },
   {
     'id': 3,
-    'name': 'LittleMockToot',
+    'name': 'Daredevil',
   }
 ];
 
