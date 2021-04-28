@@ -14,7 +14,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "frontendCleanArchitecture",
+            "prefix": "fca",
             "style": "camelCase"
           }
         ],
@@ -22,7 +22,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "frontend-clean-architecture",
+            "prefix": "fca",
             "style": "kebab-case"
           }
         ]

@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@frontend-clean-architecture/logic": ["libs/logic/src/index.ts"]
+      "@fca/logic": ["libs/logic/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

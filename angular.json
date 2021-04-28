@@ -36,7 +36,7 @@
       "projectType": "application",
       "root": "apps/web",
       "sourceRoot": "apps/web/src",
-      "prefix": "frontend-clean-architecture",
+      "prefix": "fca",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -147,7 +147,7 @@
       "projectType": "library",
       "root": "libs/logic",
       "sourceRoot": "libs/logic/src",
-      "prefix": "frontend-clean-architecture",
+      "prefix": "fca",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
