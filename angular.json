@@ -142,6 +142,31 @@
           }
         }
       }
+    },
+    "logic": {
+      "projectType": "library",
+      "root": "libs/logic",
+      "sourceRoot": "libs/logic/src",
+      "prefix": "frontend-clean-architecture",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/logic/src/**/*.ts",
+              "libs/logic/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/logic"],
+          "options": {
+            "jestConfig": "libs/logic/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }
